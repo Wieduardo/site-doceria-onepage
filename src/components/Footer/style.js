@@ -29,7 +29,7 @@ export const MediaContainer= styled.div`
     }
 `
 
-export const FooterMedia= styled.ul`
+export const FooterMedia= styled.div`
     width: 40vw;
     list-style-type:none;
     display: flex;
@@ -38,9 +38,18 @@ export const FooterMedia= styled.ul`
     gap: 20px;
     border-right: 2px solid var(--primary-color);
 
+    &>img{
+        max-width: 30vw;
+        object-fit:scale-down;
+    }
+
     @media(max-width: 800px){
         border-right: none;
         width: 90vw;
+
+        &>img{
+            max-width: 50vw;
+        }
     }
 `
 

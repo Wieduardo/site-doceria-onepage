@@ -19,6 +19,12 @@ export const ListContainer = styled.section`
         font-family: 'Pacifico', cursive;
         margin: 10px 0;
     }
+
+    @media(max-width: 800px){
+        &>input{
+            width:90vw;
+        }
+    };
 `
 
 export const List = styled.ul`
@@ -26,6 +32,7 @@ export const List = styled.ul`
     flex-direction: row;
     justify-content: flex-start;
     max-height: 85vh;
+    max-width: 100vw;
     flex-wrap: wrap;
     overflow-x: auto;
     gap: 25px 25px;
@@ -35,9 +42,9 @@ export const List = styled.ul`
     font-family: 'Barlow Condensed', sans-serif;
 
     @media(max-width: 800px){
-        overflow-y: auto;
-        flex-wrap:nowrap;
-        min-height:80vh;
+        overflow: scroll;
+        flex-wrap: nowrap;
+        min-height:70vh;
         justify-content: space-between;
     }
 `;

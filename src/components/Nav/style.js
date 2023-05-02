@@ -21,7 +21,8 @@ export const Logo = styled.div`
     color: var(--color-text);
 
     @media(max-width: 800px){
-        width: 30vw;
+        max-width: 40vw;
+        min-width: 40vw;
     };
 `
 
@@ -36,7 +37,8 @@ export const NavContent = styled.div`
     gap: 10px;
 
     @media(max-width: 800px){
-        width: 70vw;
+        max-width: 60vw;
+        min-width: 60vw;
     }
 `
 

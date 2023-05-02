@@ -35,6 +35,10 @@ export const Container= styled.div`
         right:auto;
         background: linear-gradient(to left, transparent 0%, black 200%);
     }
+
+    @media(max-width: 800px){
+        height: 50vh;
+    }
 `
 
 export const Gallery= styled.ul`
@@ -49,5 +53,9 @@ export const Gallery= styled.ul`
 
     & li img{
         width: 100vw;
+    }
+
+    @media(max-width: 800px){
+        height: 50vh;
     }
 `

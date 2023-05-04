@@ -42,6 +42,9 @@ export const SquareTopRight = styled.div`
 `
 
 export const SquareBottomLeft = styled.div`
+    display:flex;
+    flex-direction:column;
+    gap: 5px;
     height:40vh;
     width: 50vw;
     padding: 20px;

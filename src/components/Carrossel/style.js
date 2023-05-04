@@ -37,7 +37,7 @@ export const Container= styled.div`
     }
 
     @media(max-width: 800px){
-        height: 50vh;
+        height: 40vh;
     }
 `
 
@@ -46,16 +46,24 @@ export const Gallery= styled.ul`
     width: 100vw;
     display: flex;
     overflow: hidden;
+    background-color: var(--color-primary-light);
+
     & li{
         min-width: 100vw;
         display: flex;
+        justify-content:center;
     }
 
     & li img{
-        width: 100vw;
+        height:70vh;
+        object-fit:scale-down;
     }
 
     @media(max-width: 800px){
-        height: 50vh;
+        height: 40vh;
+
+        & li img{
+            height:40vh;
+        }
     }
 `

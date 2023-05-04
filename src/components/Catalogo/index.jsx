@@ -17,7 +17,6 @@ const Catalogo = () => {
                             <img src={item.imagem} alt={item.nome} />
                             <InfoCard>
                                 <h3>{item.nome}</h3>
-                                <span>{item.descri} <a href={item.link} target="blank">{item.nome}</a></span>
                             </InfoCard>
                         </Card>
                     ))}

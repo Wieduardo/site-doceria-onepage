@@ -14,15 +14,33 @@ export const Navigation= styled.nav`
 `
 
 export const Logo = styled.div`
+    display:flex;
+    gap: 15px;
     max-width: 20vw;
     min-width: 20vw;
     padding-left: 20px;
     font-family: 'Pacifico', cursive;
     color: var(--color-text);
+    align-items:center;
+    line-height:2rem;
+
+    &>img{
+        max-height:40px;
+        object-fit:scale-down;
+    }
 
     @media(max-width: 800px){
         max-width: 40vw;
         min-width: 40vw;
+        &>h1{
+            font-size:1.8rem;
+        }
+    };
+
+    @media(max-width: 415px){
+        &>h1{
+            font-size:1.6rem;
+        }
     };
 `
 

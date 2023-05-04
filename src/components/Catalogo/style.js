@@ -65,16 +65,16 @@ export const Card = styled.li`
     }
 
     &>img{
-        max-width:22vw;
+        width:22vw;
         border-radius: 10px;
+        object-fit:scale-down;
     }
     @media(max-width: 800px){
-        min-width:85vw;
+        min-width:80vw;
         margin-left:5vw;
 
         &>img{
-            max-width:85vw;
-            border-top: 10px
+            width:80vw;
         }
     }
 `

@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { GlobalContext } from "../../providers/global";
-import { FooterContainer, FooterEndereco, FooterMedia, IconFace, IconInsta, IconTwit, IconWhats, MediaContainer } from "./style";
+import { FooterContainer, FooterEndereco, FooterMedia, MediaContainer } from "./style";
 
 const Footer = () => {
 

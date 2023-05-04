@@ -6,27 +6,28 @@ const InfoSquares = () => {
         <SquareContainer>
             <SquareTopLeft>
                 <h2>Ingredientes Selecionados</h2>
-                <span>Tudo que é usado na fabricação de nossos produtos passa por uma criteriosa seleção e inspeção 
-                    . Nosso setor de compras trabalha com fornecedores parceiros que garantem a qualidade de suas 
-                    entregas.
+                <span>Selecionamos cuidadosamente os ingredientes que usamos, isso é fundamental para
+                     garantir a qualidade, o sabor e a segurança alimentar.
                 </span>
             </SquareTopLeft>
             <SquareTopRight>
-                <h2>Higiene, Limpeza e organização</h2>
+                <h2>Sanitização</h2>
                 <span>
-                Nossas operações funcionam com base em um fluxo de melhoria contínua. Tudo é higienizado de acordo 
-                com as mais rígidas políticas sanitárias e de organização, preservando a saúde de todos.
+                Nosso processo de limpeza e desinfecção visa eliminar contaminantes de superfícies, equipamentos,
+                 utensílios e ambientes, a fim de garantir a segurança e a qualidade dos alimentos e proteger
+                  a saúde pública.
                 </span>
             </SquareTopRight>
             <SquareBottomLeft>
-                <h2>Sistema Próprio de Entregas</h2>
-                <span>Trabalhamos com frota e funcionários próprios, garantindo a máxima eficiência nas entregas de Mercado Delivery.
-                     Todos os pedidos são vistoriados na saída e conferidos no momento que chegam até você.</span>
+                <h2>Entregas</h2>
+                <span>- Entrega balcão: o cliente busca o produto diretamente no estabelecimento.</span>
+                <span>- Transporte próprio: trabalhamos com  transportadoras contratadas. Consultar taxa de entrega.</span>
             </SquareBottomLeft>
             <SquareBottomRight>
-                <h2>Responsabilidade Social</h2>
-                <span>Temos uma rede consolidada de instituições que recebem periodicamente doações de produtos alimentícios
-                     da nossa produção própria. Também realizamos eventos de arrecadação de roupas e itens de higiene. </span>
+                <h2>Nossa Missão</h2>
+                <span>Criar e oferecer produtos de alta qualidade e sabor inigualável.
+                     Além disso, busca-se proporcionar uma experiência agradável e única de felicidade 
+                    pelos sabores e aromas intensos dos ingredientes utilizados.</span>
             </SquareBottomRight>
         </SquareContainer>
         </>

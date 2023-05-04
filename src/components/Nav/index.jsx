@@ -7,7 +7,8 @@ const Nav = () =>{
         <>
             <Navigation>
                 <Logo>
-                <h1>Ione Doces</h1>
+                <img src={require('../../imagens/logo2.png')}/>
+                <h1>Confeitaria Ione</h1>
                 </Logo>
                 <NavContent>
                     <Bola><BsFacebook/></Bola>
